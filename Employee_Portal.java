@@ -43,8 +43,9 @@ public class Employee_Portal
                 Emp_Id.add("EMP2356");
                 Emp_Id.add("EMP2417");
 
-                Emp_details.add(Emp_name);
                 Emp_details.add(Emp_Id);
+                Emp_details.add(Emp_name);
+                
 
                 switch (choice) 
                 {
@@ -65,8 +66,9 @@ public class Employee_Portal
                         System.out.println("Enter Employee Name:");
                         String newEmpName = sc.next();
 
-                        Emp_details.get(0).add(newEmpName);
-                        Emp_details.get(1).add(newEmpId);
+                        Emp_details.get(0).add(newEmpId);
+                        Emp_details.get(1).add(newEmpName);
+                        
 
                         System.out.println("Employee Added Successfully!");
 
